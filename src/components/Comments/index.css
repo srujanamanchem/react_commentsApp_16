@@ -1,0 +1,83 @@
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0;
+  padding-bottom: 0;
+  width: 100%;
+  list-style-type: none;
+  border-bottom: 2px solid #cbd2d9;
+}
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'roboto';
+  margin-bottom: 0px;
+}
+.surname {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+.name {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.posted-time {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: #94a3b8;
+}
+.comment-text {
+  font-size: 12px;
+  padding-left: 30px;
+  margin: 0;
+  color: #64748b;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+}
+.like-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'roboto';
+}
+.button {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.like-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.active {
+  color: #0ea5e9;
+}
+
+.delete-button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.delete-icon {
+  width: 15px;
+}
