@@ -23,13 +23,15 @@ const CommentItem = props => {
   return (
     <li className="comment-item">
       <div className="name-container">
-        <div className={initialClassName}>
-          <p className="surname">{surname}</p>
+        <p className={`surname ${initialClassName}`}>{surname}</p>
+        <div className="name-comment-container">
+          <div className="name-time-container">
+            <p className="name">{name}</p>
+            <p className="posted-time">{postedTime} ago</p>
+          </div>
+          <p className="comment-text">{comment}</p>
         </div>
-        <p className="name">{name}</p>
-        <p className="posted-time">{postedTime} ago</p>
       </div>
-      <p className="comment-text">{comment}</p>
       <div className="like-delete-container">
         <div className="like-container">
           <img src={likeImageUrl} alt="like" className="like-icon" />
