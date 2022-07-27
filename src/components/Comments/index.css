@@ -1,3 +1,30 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
 .comment-item {
   display: flex;
   flex-direction: column;
@@ -8,37 +35,58 @@
   width: 100%;
   list-style-type: none;
   border-bottom: 2px solid #cbd2d9;
+  margin-bottom: 4px;
 }
 .name-container {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   font-family: 'roboto';
   margin-bottom: 0px;
+  width: 80%;
 }
 .surname {
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 16px;
-  margin: 0;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  padding-left: 12px;
+  padding-top: 8px;
 }
+.name-comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+  width: 80%;
+}
+.name-time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 0px;
+}
+
 .name {
   font-size: 14px;
-  margin-left: 5px;
-  margin-bottom: 0;
-  font-weight: 500;
+  margin-right: 20px;
 }
 .posted-time {
   font-size: 12px;
-  margin-left: 10px;
-  margin-bottom: 0;
   color: #94a3b8;
 }
 .comment-text {
+  font-family: 'roboto';
   font-size: 12px;
-  padding-left: 30px;
-  margin: 0;
   color: #64748b;
+  margin-bottom: 20px;
+  margin-top: 2px;
 }
 .like-delete-container {
   display: flex;
@@ -46,6 +94,7 @@
   align-items: center;
   width: 100%;
   padding-left: 0;
+  margin-bottom: 10px;
 }
 .like-container {
   display: flex;
