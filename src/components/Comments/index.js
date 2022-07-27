@@ -54,10 +54,10 @@ class Comments extends Component {
     ))
   }
 
-  oonAddComment = event => {
+  onAddComment = event => {
     event.preventDefault()
 
-    const {username, userComment} = this.setState
+    const {username, userComment} = this.state
     const initialBackgroundClassName = `initial-container ${
       initialContainerBackgroundClassNames[
         Math.ceil(
